@@ -12,6 +12,8 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-if talk_to_grandma == "I LOVE YOU GRANDMA!"
+if speak_to_grandma == "I LOVE YOU GRANDMA!"
   return "I LOVE YOU TOO PUMPKIN!"
+elsif speak_to_grandma.upcase
+
   
