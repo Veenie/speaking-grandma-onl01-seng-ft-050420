@@ -12,6 +12,8 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
+speak_to_grandma = "I LOVE YOU GRANDMA!"
+
 if speak_to_grandma == "I LOVE YOU GRANDMA!"
   return "I LOVE YOU TOO PUMPKIN!"
 elsif speak_to_grandma.upcase
@@ -19,4 +21,3 @@ elsif speak_to_grandma.upcase
 else
   return "HUH?! SPEAK UP, SONNY!"
 end
-  
